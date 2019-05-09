@@ -1,0 +1,38 @@
+/*
+	Styles for Splat
+	Jonathan Harrison 2019
+*/
+
+/*
+	basic content
+*/
+html, body, #animationContainer {
+	background-color: #fefefe;
+}
+#animationContainer {
+	position: absolute;
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+	visibility: hidden;
+}
+#splatter {
+	position: absolute;
+	overflow: hidden;
+	width: 90%;
+	max-width: 700px;
+	height: auto;
+}
+
+/*
+	animated content
+*/
+.splatter-blob { 
+	position: absolute;
+	visibility: hidden;
+	fill: #222;
+}
+#splatterPathCutout, #splatterCutoutBackground {
+	visibility: hidden;
+	fill: #222;
+}
